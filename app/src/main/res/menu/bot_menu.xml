@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Главная"
+        android:icon="@drawable/ic_home"
+        android:id="@+id/homeFragment"/>
+
+    <item android:title="Поиск"
+        android:icon="@drawable/ic_search"
+        android:id="@+id/recipeSearchFragment"/>
+
+    <item android:title="Диеты"
+        android:icon="@drawable/ic_categories"
+        android:id="@+id/dietFragment"/>
+
+    <item android:title="Избранные"
+        android:icon="@drawable/ic_fav_true"
+        android:id="@+id/favoriteFragment"/>
+    <item android:title="О программе"
+        android:icon="@drawable/ic_info"
+        android:id="@+id/infoFragment"/>
+
+</menu>
